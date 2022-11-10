@@ -1,6 +1,6 @@
 Contract Testing Consumer
 =======================
-![Build status](https://github.com/czerwinskimarek/contract-testing-consumer/actions/workflows/gradle.yml/badge.svg)
+![Build with Gradle](https://github.com/czerwinskimarek/contract-testing-consumer/actions/workflows/gradle.yml/badge.svg)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 Overview
