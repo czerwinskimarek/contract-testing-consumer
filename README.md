@@ -25,3 +25,4 @@ To:
 - build the app
 - use spring-cloud-contract-stub-runner-spring to download the stub of contract-testing-producer
 - run the tests against stubbed server
+# contract-testing-producer
