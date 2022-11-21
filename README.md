@@ -7,6 +7,11 @@ Overview
 --------
 This repository contains the application which demonstrates how Spring Cloud Contract can be used on the consumer side.
 
+How the code is organized
+-------------------
+- [CustomerClient.kt](src/main/kotlin/com/example/customer/consumer/CustomerClient.kt) - sample client
+- [CustomerClientTest.groovy](src/test/kotlin/com/example/customer/consumer/CustomerClientTest.kt) - class which uses stub runner and run contract tests on the consumer side
+
 How to run static code analysis
 -------------------
 Execute:
@@ -16,7 +21,9 @@ Execute:
 
 How to run contract tests
 -------------------
-Execute:
+Firstly, [build the app on the producer side](https://github.com/czerwinskimarek/contract-testing-producer#how-to-run-contract-tests) to publish the stubs to Maven Local.
+
+Secondly, Execute:
 ```bash
 ./gradlew clean build
 ```
